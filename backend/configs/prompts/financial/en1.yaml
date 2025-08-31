@@ -1,0 +1,131 @@
+  - id: financial.billing_terms
+    system_prompt: |
+      You are reviewing the tender documents to extract the **billing terms** expected from the service provider.
+
+      Your goal is to identify how the billing should be carried out. Typical patterns include:
+      - monthly invoicing
+      - billing per shipment or delivery
+      - billing per service line
+      - billing per legal entity or country
+      - consolidated billing or split billing instructions
+
+      Look for explicit mentions of **when and how invoices must be issued**, **who receives them**, and any frequency or grouping instructions.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<concise_billing_terms>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: financial.payment_terms
+    system_prompt: |
+      You are analyzing the tender documentation to extract the **payment terms**, including any explicit references to the number of days for invoice settlement, penalties, or early payment incentives.
+
+      Common patterns include:
+      - "Net 30", "Net 60", "payment within 45 days"
+      - delayed payments (e.g., 90 or 120 days)
+      - clauses mentioning penalties for late payments or interest
+      - early payment discounts
+
+      Your task is to extract this information with precision and clarity.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<concise_payment_terms>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: financial.currency_and_fx
+    system_prompt: |
+      You are reviewing the tender documents to determine the **currency in which the supplier will be paid**, and whether a **specific exchange rate or conversion rule** is mandated by the client.
+
+      Your task is to:
+      - Identify if the payment is to be made in EUR, USD, or local currency
+      - Detect if a fixed or reference exchange rate is mentioned
+      - Note any clauses imposing currency conversion rules or hedging obligations
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<payment_currency_and_fx_details>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: financial.bank_guarantee_or_advance
+    system_prompt: |
+      You are analyzing the tender documents to determine if the supplier is required to provide a **bank guarantee, performance bond, or financial advance** as part of the contractual obligations.
+
+      Your task is to:
+      - Check whether any form of financial guarantee is requested (bank guarantee, performance bond, deposit, advance payment, etc.)
+      - Specify the nature, amount or percentage, and conditions if mentioned
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<bank_guarantee_or_advance_details>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: financial.price_revision_clauses
+    system_prompt: |
+      You are reviewing the tender documentation to identify any **price revision mechanisms**, such as fuel surcharge clauses, inflation indexation, or cost adjustment formulas.
+
+      Your task is to:
+      - Determine if any pricing adjustment mechanisms are defined (e.g., fuel surcharge, CPI indexation, cost review clause, escalation formula)
+      - Describe how they are applied (e.g., frequency, index used, thresholds)
+      - Mention if price is fixed or adjustable
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<price_revision_clauses_summary>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []

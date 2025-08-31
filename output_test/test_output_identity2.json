@@ -1,0 +1,832 @@
+{
+  "timestamp": "2025-08-22T14:32:32.010245",
+  "questions": {
+    "identity.client_name": {
+      "question_id": "identity.client_name",
+      "answer": "Reckitt",
+      "sources": [
+        {
+          "document": "Tenderer's Statement 2025.pdf",
+          "section": "requirements"
+        },
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "section": "Table_28"
+        },
+        {
+          "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+          "section": "Table_2"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "Buyer’s Corporate Standards and will enforce those policies and procedures. We shall ensure that any person associated wi th us who is \nperforming activities in connection with the Contract are required to abide by terms equivalent to those agreed to by us in t his clause. \n- We shall promptly report to you any violation of the requirements set out above in relation to the Buyer’s Corporate Standard s, or any \nrequest by any person that we perform an act that would be a violation of those requirements. We shall provide to you, promptly and at \nno extra charge, information on and evidence of our compliance with our commitments set out hereunder as requested. We shall \nundertake independent audits, by a Competent Third Party Auditor, and accommodate site visits by your representatives , or your \naffiliates, to verify compliance with these requirements, if requested. “Competent Third Party Auditor” means a third party a uditor who \nmeets the requirements of the Global Social Compliance Programme Reference Tool for Auditing Competence.  \nI warrant that I have all requisite authority to sign this Tender and commit the Freight Services Provider to enter into the Contract. I confirm \nthat the Freight Services Provider has complied with all the requirements of the ITT. \n \nSigned for and on behalf of:  \n  \nName of Freight \nServices Provider: \n \n \nSignature:   \nName and Status:",
+          "metadata": {
+            "source": "Tenderer's Statement 2025.pdf",
+            "section": "requirements"
+          },
+          "relevance_score": 0.4932602047920227
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "\tThe Tenderer must upload to Transporeon a scanned copy of the Tenderer’s Statement set out in Schedule C, with the parts in square brackets completed and the Tenderer’s Statement signed by hand by authorized personnel.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_28"
+          },
+          "relevance_score": 0.48910772800445557
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "\t[INSERT SUPPLIER NAME], a company incorporated in [insert jurisdiction] with company number [insert number] and having its registered office at [insert address] (“Freight Services Provider”).\n",
+          "metadata": {
+            "source": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+            "section": "Table_2"
+          },
+          "relevance_score": 0.4687172472476959
+        }
+      ]
+    },
+    "identity.tender_reference": {
+      "question_id": "identity.tender_reference",
+      "answer": "Reckitt Global Ocean Freight 2025",
+      "sources": [
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "section": "Table_2"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\tprovides Freight Services Providers with sufficient information to enable them to provide a compliant Tender;\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_2"
+          },
+          "relevance_score": 0.4790066182613373
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "SCHEDULE C – TENDERER’S STATEMENT \n\n\t\n\nSCHEDULE D – TECHNICAL AGREEMENTS\n\n\n\nSCHEDULE E – SECURITY STANDARDS\n\n\n\n1",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "requirements (Part 13/13)"
+          },
+          "relevance_score": 0.47014331817626953
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "\tThe Tenderer must upload to Transporeon a scanned copy of the Tenderer’s Statement set out in Schedule C, with the parts in square brackets completed and the Tenderer’s Statement signed by hand by authorized personnel.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_28"
+          },
+          "relevance_score": 0.46963751316070557
+        }
+      ]
+    },
+    "identity.timeline_milestones": {
+      "question_id": "identity.timeline_milestones",
+      "answer": [
+        {
+          "label": "Round 1 response period",
+          "date": "2025-02-24",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "24th February 2025 – 28th February 2025\n\nRound 1"
+            }
+          ]
+        },
+        {
+          "label": "Round 1 response period end",
+          "date": "2025-02-28",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "24th February 2025 – 28th February 2025\n\nRound 1"
+            }
+          ]
+        },
+        {
+          "label": "Round 2 response period",
+          "date": "2025-03-03",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "03rd March 2025 – 21st March 2025\n\nRound 2 response period"
+            }
+          ]
+        },
+        {
+          "label": "Round 2 response deadline (ITT Round 2 response deadline)",
+          "date": "2025-03-21",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "21st March 2025 (3pm CET)\n\nITT Round 2 response deadline"
+            }
+          ]
+        },
+        {
+          "label": "Online & face to face meetings period",
+          "date": "2025-03-06",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "6th March 2025 – 19th March 2025\n\nOnline & face to face meetings"
+            }
+          ]
+        },
+        {
+          "label": "Online & face to face meetings period end",
+          "date": "2025-03-19",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "6th March 2025 – 19th March 2025\n\nOnline & face to face meetings"
+            }
+          ]
+        },
+        {
+          "label": "Round 2 response analysis and offers fine tuning period",
+          "date": "2025-03-24",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "24th March 2025 – 4th April 2025\n\nRound 2\n\nResponse Analysis and offers fine tuning"
+            }
+          ]
+        },
+        {
+          "label": "Round 2 response analysis and offers fine tuning period end",
+          "date": "2025-04-04",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "24th March 2025 – 4th April 2025\n\nRound 2\n\nResponse Analysis and offers fine tuning"
+            }
+          ]
+        },
+        {
+          "label": "Upload of fine tuned offers period start",
+          "date": "2025-04-07",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "7th April 2025 – 15th April 2025\n\nUpload of fine tunned offers"
+            }
+          ]
+        },
+        {
+          "label": "Upload of fine tuned offers period end",
+          "date": "2025-04-15",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "7th April 2025 – 15th April 2025\n\nUpload of fine tunned offers"
+            }
+          ]
+        },
+        {
+          "label": "Reckitt internal alignment and allocation approval period start",
+          "date": "2025-04-16",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "16th April 2025 – 23rd May 2025\n\nReckitt internal alignment and allocation approval"
+            }
+          ]
+        },
+        {
+          "label": "Reckitt internal alignment and allocation approval period end",
+          "date": "2025-05-23",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "16th April 2025 – 23rd May 2025\n\nReckitt internal alignment and allocation approval"
+            }
+          ]
+        },
+        {
+          "label": "Award announcement (week commencing)",
+          "date": "2025-05-26",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "Week commencing 26th May 2025\n\nAward announcement"
+            }
+          ]
+        },
+        {
+          "label": "Commencement of service",
+          "date": "2025-07-01",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "1st July 2025\n\nCommencement of service   (all Regions)"
+            }
+          ]
+        },
+        {
+          "label": "Deadline for concerns or queries about the Tenderer’s Statement",
+          "date": "2025-02-23",
+          "sources": [
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | Table_29",
+              "snippet": "Any concerns or queries about the Tenderer’s Statement must be submitted a minimum of five working days before the ITT Round 1 Response Deadline."
+            },
+            {
+              "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+              "snippet": "24th February 2025 – 28th February 2025\n\nRound 1"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "section": "Table_4"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\tTenders must be submitted on or before the dates set out in the Tender Timetable above to be considered.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_4"
+          },
+          "relevance_score": 0.521154522895813
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "\tAny concerns or queries about the Tenderer’s Statement must be submitted a minimum of five working days before the ITT Round 1 Response Deadline.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_29"
+          },
+          "relevance_score": 0.4207109808921814
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "Freight Services Providers Tender responses must be received by the deadline via the Transporeon platform.\n\n24th February 2025 – 28th February 2025\n\nRound 1 \n\nResponse analysis and qualification to Round 2\n\nFreight Services Providers should be available for follow-up questions. Selected Freight Services Providers will get invitation to Round 2. \n\n03rd March 2025 – 21st March 2025\n\nRound 2 response period\n\nFreight Services Providers permitted to revisit their proposals via Transporeon platform\n\n21st March 2025 (3pm CET)\n\nITT Round 2 response deadline \n\nFreight Services Providers Tender responses must be received by the deadline via the Transporeon platform.\n\n6th March 2025 – 19th March 2025\n\nOnline & face to face meetings \n\nOnline & face to face discussion with selected Freight Services Providers.\n\n24th March 2025 – 4th April 2025\n\nRound 2\n\nResponse Analysis and offers fine tuning\n\nFreight Services Providers should be available for follow-up validation questions.\n\n7th April 2025 – 15th April 2025\n\nUpload of fine tunned offers  \n\nTime  for Freight Services Providers to upload fine tunned offers in Transporeon \n\n16th April 2025 – 23rd May 2025\n\nReckitt internal alignment and allocation approval  \n\n\n\nWeek commencing 26th May 2025\n\nAward announcement \n\n\n\n1st July 2025\n\nCommencement of service   (all Regions)\n\nUnless agreed otherwise, new Charges and allocation go into effect in accordance with clause 2.2 of the Contract \n\nAny changes to the Tender Timetable shall be notified to Freight Services Providers as soon as practicable. Reckitt is in its sole discretion entitled to change the deadline for the submission of Tenders at any time. \n\nReckitt may accept an offer after any Round during this Tender Timetable appointing the selected Freight Services Provider for selected Routes. ",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "evaluation (Part 2/13)"
+          },
+          "relevance_score": 0.41400545835494995
+        }
+      ]
+    },
+    "identity.submission_channel": {
+      "question_id": "identity.submission_channel",
+      "answer": "Transporeon",
+      "sources": [
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "section": "Table_3"
+        },
+        {
+          "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+          "section": "Table_67"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\tAll Tenders must be submitted through Transporeon. Reckitt accepts no liability for the operation of Transporeon.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_3"
+          },
+          "relevance_score": 0.31587347388267517
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "\n\n\n\n\n\n…………………………………………………………………………………..\n\nSignature\n\n\n\n\n\n\n\n………………………………………………………………………………..\n\nSignature\n",
+          "metadata": {
+            "source": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+            "section": "Table_67"
+          },
+          "relevance_score": 0.2909010946750641
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "\tThe Tenderer must upload to Transporeon a scanned copy of the Tenderer’s Statement set out in Schedule C, with the parts in square brackets completed and the Tenderer’s Statement signed by hand by authorized personnel.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_28"
+          },
+          "relevance_score": 0.26653459668159485
+        }
+      ]
+    },
+    "identity.expected_deliverables": {
+      "question_id": "identity.expected_deliverables",
+      "answer": [
+        "Signed Tenderer's Statement (including name of Freight Services Provider, signature, name and status)",
+        "Evidence/information of compliance with Buyer’s Corporate Standards (including reports of any violations, and evidence as requested)",
+        "Independent audit reports by a Competent Third Party Auditor (or availability to undertake such audits)",
+        "Accommodation of site visits by Buyer representatives or affiliates to verify compliance",
+        "Approved Subcontractors List (Appendix 4)",
+        "Contract Acceptor Contact List (Appendix 3 / completed contact list)",
+        "Documentation demonstrating maintenance of specific transportation requirements (e.g., temperature and humidity) available on request"
+      ],
+      "sources": [
+        {
+          "document": "TPT000316-2.0-Global Non-Medicinal Transporter TA Template.docx",
+          "section": "part_5"
+        },
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+          "section": "part_13"
+        },
+        {
+          "document": "Tenderer's Statement 2025.pdf",
+          "section": "requirements"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "that specific transportation requirements (such as temperature and humidity conditions) are maintained during transportation, as per transport order. This documentation must be made available upon request and will be sample-checked during routine audits.\n\n\n\nü\n\n3.9\n\nEnsure changes or deviations are correctly communicated as per definitions and timelines in this agreement. Reckitt will ensure that details are documented in accordance with internal change control and deviation procedures. \n\nü\n\nü\n\n3.10\n\nRegularly review and trend any reported deviations regarding the impact upon the quality or safety of the Product and compliance. \n\nü\n\n\n\n3.11\n\nThoroughly investigate deviations and provide corrective and preventive actions as per agreed timelines for each investigation. Communicate findings to Reckitt.\n\n\n\nü\n\n3.12\n\nApprove and review effectiveness of corrective and preventative actions in a timely manner.\n\nü\n\nü\n\n3.13\n\nApprove subcontractors according to a vendor qualification process. Ensure requirements as set out in the agreements are respected. \n\n\n\nü\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContact List – Reckitt Benckiser \n\nTITLE\n\nNAME\n\nTELEPHONE\n\nEMAIL\n\nFirst Contact Point\n\nQuality Inbox\n\nN/A\n\nQualityHealthHub@rb.com\n\nGDP Compliance Officer\n\nSylwia Dykiel \n\n+44 (0) 7408 806 812\n\nSylwia.Dykiel@reckitt.com\n\nSenior Global Quality Manager \n\nBeck Johnson\n\nN/A\n\nBeck.Johnson@reckitt.com\n\nGlobal Security (point of contact for all security-related issues)\n\nN/A\n\n+44 (0) 1482 582 166\n\nAsksecurity@reckitt.com\n\nSenior Procurement Manager – Road and Intermodal Freight EU ANZ\n\nUrszula Miszkurka\n\n+48 696 476 975\n\nUrszula.Miszkurka@reckitt.com \n\nGlobal Procurement Manager – Ocean & Air Freight\n\nLukasz Sliwinski\n\n+48 660 728 621\n\nLukasz.Sliwinski@reckitt.com \n\n\n\n\n\n\n\nContact List – CONTRACT ACCEPTOR \n\nTITLE\n\nNAME\n\nTELEPHONE\n\nEMAIL\n\nClick or tap here to enter text.  \n\nClick or tap here to enter text.\n\nClick or tap here to enter text.  \n\nClick or tap here to enter text.  \n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\n\n\n\n\n\t\tPage | 1",
+          "metadata": {
+            "source": "TPT000316-2.0-Global Non-Medicinal Transporter TA Template.docx",
+            "section": "part_5"
+          },
+          "relevance_score": 0.4430786669254303
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "Johnson\n\n+44 7408833983\n\nBeck.Johnson@reckitt.com\n\nResponsible Person\n\nRaj Shinde\n\n+44 7408802274\n\nRaj.Shinde@reckitt.com\n\nSenior Procurement Manager – Road and Intermodal Freight EU ANZ MEA \n\nUrszula Miszkurka\n\n+48 696476975\n\nUrszula.Miszkurka@reckitt.com \n\nGlobal Procurement Manager – Ocean & Air Freight\n\nLukasz Sliwinski\n\n+48 660728621\n\nLukasz.Sliwinski@reckitt.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAPPENDIX 3: CONTRACT ACCEPTOR CONTACT LIST\n\n\n\nTITLE\n\nNAME\n\nTELEPHONE\n\nEMAIL\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAPPENDIX 4: APPROVED SUBCONTRACTORS LIST (used for Reckitt shipments-add more rows if required)\n\n\n\nNo\n\nSUBCONTRACTOR NAME\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\nClick or tap here to enter text.\n\n\n\n\n\n\n\n\n\n\nAPPENDIX 5: REVISION HISTORY\n\n\n\nDATE\n\nISSUE NUMBER\n\nREASON FOR CHANGE\n\n30 Nov 2022\n\n001\n\nNew Document\n\n01 Aug 2023\n\nVersion 1.0\n\nChange of the template due to migration of the documents to a new system QualityOne, \n\n01 Dec 2024\n\nVersion 2.0\n\nUpdate throughout the document, route risk assessment added in 6.1.3, column for responsibilities of both parties added, 6.2.6 a, b, c points added, RB contact details updated. Addition of the specified period for the notice on page 2. Appendix 4 – List of approved subcontractors added.",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "part_13"
+          },
+          "relevance_score": 0.4335249662399292
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "Buyer’s Corporate Standards and will enforce those policies and procedures. We shall ensure that any person associated wi th us who is \nperforming activities in connection with the Contract are required to abide by terms equivalent to those agreed to by us in t his clause. \n- We shall promptly report to you any violation of the requirements set out above in relation to the Buyer’s Corporate Standard s, or any \nrequest by any person that we perform an act that would be a violation of those requirements. We shall provide to you, promptly and at \nno extra charge, information on and evidence of our compliance with our commitments set out hereunder as requested. We shall \nundertake independent audits, by a Competent Third Party Auditor, and accommodate site visits by your representatives , or your \naffiliates, to verify compliance with these requirements, if requested. “Competent Third Party Auditor” means a third party a uditor who \nmeets the requirements of the Global Social Compliance Programme Reference Tool for Auditing Competence.  \nI warrant that I have all requisite authority to sign this Tender and commit the Freight Services Provider to enter into the Contract. I confirm \nthat the Freight Services Provider has complied with all the requirements of the ITT. \n \nSigned for and on behalf of:  \n  \nName of Freight \nServices Provider: \n \n \nSignature:   \nName and Status:",
+          "metadata": {
+            "source": "Tenderer's Statement 2025.pdf",
+            "section": "requirements"
+          },
+          "relevance_score": 0.4319900870323181
+        }
+      ]
+    },
+    "identity.operating_countries": {
+      "question_id": "identity.operating_countries",
+      "answer": [
+        "Kenya",
+        "Uganda",
+        "South Sudan",
+        "Rwanda",
+        "Poland",
+        "Ukraine",
+        "Israel",
+        "South Africa",
+        "Ashdod (Israel - port)",
+        "Haifa (Israel - port)"
+      ],
+      "sources": [
+        {
+          "document": "Reckitt Instructions to 2025 Quotation Tables.docx",
+          "section": "scope (Part 2/24)"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "D - P – Scope: from Door to Port\n\nP - P – Scope: from Port to Port\n\nP - D – Scope: from Port to Door\n\n[4] Origin Scope – defines scope of quotation for Origin side with the following definitions:\n\nA – from Door, with all Origin Charges included in quoted Charges\n\nB – from Door, with all Origin Charges included apart from Origin custom clearance\n\nD – from Port, with all Origin Charges included apart from Origin custom clearance and pre-carriage\n\nE – from Port, with all Origin Charges excluded \n\n[5] Destination Scope – defines scope of quotation for Destination side with the following definitions: \n\nA – to Door, with all Destination Charges included\n\nB – to Door, with all Destination Charges included apart from Destination custom clearance\n\nC – to Port, with all Destination Charges included apart from Destination on-carriage \n\nD – to Port, with all Destination Charges included, apart from Destination on-carriage and custom clearance\n\nE – to Port, with all Destination Charges excluded\n\n[6] Origin Plant / Supplier Name – specifies entity being a Collection Point on Origin side.\n\n[7] Origin Country – specifies Country where the Collection Point is located.\n\n[8] Origin Address – specifies Address, where the Collection Point is located or where the Route starts. \n\n[9] Destination Place Name – specifies entity being a Delivery Point on Destination side.\n\n[10] Destination Country – specifies Country where the Delivery Point is located.\n\n[11] Destination Market – specifies Country where the Final Destination Point is located. \n\nExample 1: Kenya: via Mombasa we are supplying 4 different countries: Kenya, Uganda, South Sudan and Rwanda. Destination Country will be Kenya, while Destination Market will be 4 different Countries. \n\nExample 2: Poland: via Poland we are supplying Poland and Ukraine. Destination Country will be Poland, while Destination Market will be 2 different Countries.\n\n[12] Destination Address – specifies Address, where the Delivery Point is located or where the Route is cut. \n\n",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "scope (Part 2/24)"
+          },
+          "relevance_score": 0.37304627895355225
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "\n\n[2] BU – specifies to which of Reckitt BU on given Route, the products might be addressed to, depending on product category. Reckitt Core - products for Reckitt Core BU only, Nutrition – products for Nutrition only, Essential Home - products for Essential Home BU only, RMPM (Raw and Pack materials) – Raw and Pack materials products. In regions where Essential Home and Reckitt Core BUs exist at the same time, we will maintain additional 4 BUs types: [Hygiene] Reckitt Core, [Health] Reckitt Core, [Hygiene] Essential Home, [Health] Essential Home. BU marked in “[ ]” means historical name and will be needed for financial purposes related to payment entity mainly. BU name after “[ ]” is main one that should be followed. \n\n[3] Route Set-up – differentiates quoted Routes depending on covered scope: \n\nD - D – Scope: from Door to Door\n\nD - P – Scope: from Door to Port\n\nP - P – Scope: from Port to Port\n\nP - D – Scope: from Port to Door\n\n[4] Origin Scope – defines scope of quotation for Origin side with the following definitions:\n\nA – from Door, with all Origin Charges included in quoted Charges\n\nB – from Door, with all Origin Charges included apart from Origin custom clearance\n\nD – from Port, with all Origin Charges included apart from Origin custom clearance and pre-carriage\n\nE – from Port, with all Origin Charges excluded \n\n[5] Destination Scope – defines scope of quotation for Destination side with the following definitions: \n\nA – to Door, with all Destination Charges included\n\nB – to Door, with all Destination Charges included apart from Destination custom clearance\n\nC – to Port, with all Destination Charges included apart from Destination on-carriage \n\nD – to Port, with all Destination Charges included, apart from Destination on-carriage and custom clearance\n\nE – to Port, with all Destination Charges excluded\n\n[6] Origin Plant / Supplier Name – specifies entity being a Collection Point on Origin side.\n\n[7] Origin Country – specifies Country where the Collection Point is located.",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "commercial (Part 1/24)"
+          },
+          "relevance_score": 0.34801262617111206
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "Israel: Standard lane is designed to Ashdod, while we would like to explore (and potentially to use) also Haifa port which is being setup in Alternative scenario.\n\nSouth Africa: Standard lane scope is to port, while we are currently in evaluation stage of having it to door for selected lanes (Alternative scenario). \n\n[19] Origin Service / Port Requirements – defines requirements for origin service and origin port based on which the Route needs to be quoted. \n\n[20] Ocean Routing Requirements – defines requirements for ocean routing based on which the Route needs to be quoted. \n\n\n\n[21] Ocean TT Requirements – defines requirements for ocean transit time based on which the Route needs to be quoted. \n\n[22] Ocean Frequency Requirements – defines requirements for ocean frequency based on which the Route needs to be quoted. \n\n[23] Destination Service / Port Requirements – defines requirements for destination service and destination port routing based on which the Route needs to be quoted. \n\n[24] Commodity – it specifies top line type of commodity shipped on each Route.\n\n[25] Temperature Range – it specifies a range of temperature (in Celsius), under which REF containers are set up for transportation (final confirmation on required temperature for each shipment is provided by Collection Point).\n\n[26] DG Classification – confirms Dangerous Goods product classification under which the DG shipments should be quoted.",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "commercial (Part 4/24)"
+          },
+          "relevance_score": 0.3214878439903259
+        }
+      ]
+    },
+    "identity.service_main_scope": {
+      "question_id": "identity.service_main_scope",
+      "answer": "Freight transportation services (international freight forwarding across ocean/air/road/rail including containerised ocean shipments)",
+      "sources": [
+        {
+          "document": "R074927-2.0-Transporter Evaluation Form.docx",
+          "section": "part_3"
+        },
+        {
+          "document": "Reckitt Instructions to 2025 Quotation Tables.docx",
+          "section": "requirements (Part 18/20)"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\t\t\tYes   No\n\n\t\t\t\t\t4.4 Premises (Cross Dock/Transportation Hub ONLY)\n\n\t\t\t\t\t4.4.1\n\n\t\t\t\t\tDo you intend on using a cross dock during your journey? If yes, please complete questions below. \n\n\t\t\t\t\tYes   No\n\n\t\t\t\t\t4.4.2\n\n\t\t\t\t\tPlease provide the address and any licenses held for each cross dock site(s).\n\n\t\t\t\t\t     \n\n\t\t\t\t\t\n\n\t\t\t\t\t4.4.3\n\n\t\t\t\t\tDo you have a procedure to ensure ambient products are not held for more than 36 hours at a cross dock facility?\n\n\t\t\t\t\tYes   No\n\n\t\t\t\t\t4.4.4\n\n\t\t\t\t\tDo you have a procedure in place to approve any cross dock site(s) prior to use?\n\n\t\t\t\t\tYes   No\n\n\t\t\t\t\t4.4.5 \n\n\t\t\t\t\tDo you have a technical agreement in place with the cross dock site(s)?\n\n\t\t\t\t\tYes   No\n\n\t\t\t\t\t4.4.6\n\n\t\t\t\t\tIs each cross dock site temperature monitored with minimum and maximum temperature recorded daily?\n\n\t\t\t\t\tYes   No\n\n\t\t\t\t\t4.4.7\n\n\t\t\t\t\tDo you have pest control program in place?\n\n\t\t\t\t\tYes   No\n\n\t\t\t\t\t4.5 Documents\n\n4.5.1\n\n\t\t\t\t\tDo you have a documented process for control of documents and records; including review, approval, distribution, archiving and disposal?\n\n\t\t\t\t\t Yes  No\n\n4.5.2\n\nIs your document control system electronic?\n\nIf yes, please provide system details:\n\n\t\t\t\t\t     \n\n\t\t\t\t\t Yes  No\n\n4.5.3\n\n\t\t\t\t\tDo all personnel have direct access to all procedures, records and logs associated with their job?\n\n\t\t\t\t\t Yes  No\n\n\t\t\t\t\t4.5.4\n\n\t\t\t\t\tHow long are your documents & records retained for?\n\n\t\t\t\t\t     \n\n4.5.5\n\n\t\t\t\t\tDo you have approved procedures describing the checks required during the picking, loading and unloading process?\n\n\t\t\t\t\t Yes  No\n\n\t\t\t\t\t4.5.6\n\n\t\t\t\t\tDo you have a business continuity / backup / recovery plan?\n\n\t\t\t\t\t Yes  No\n\n\t\t\t\t\t4.6 Transportation\n\n\t\t\t\t\t4.6.1\n\nPlease specify the mode(s) of transport for Reckitt (air, rail, road, sea, ocean) \n\n\t\t\t\t\t     \n\n\t\t\t\t\t4.6.2\n\nPlease specify the shipping method for Reckitt    FTL / FCL\n\n                                                                              LTL / LCL\n\n\t\t\t Yes\t No \n\n\t\t\t\t\t Yes   No\n\n\t\t\t\t\t4.6.3\n\nDo you have full control of the transport used to distribute products?\n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.4\n\nWhat types of containers/vehicles are used for transport?\n\n\t\t\t\t\t     \n\n\t\t\t\t\t4.6.5\n\nAre you using dedicated transport?\n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.6\n\nDo you subcontract part of all the transport? \n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.7a\n\nIf yes, Do you have a contract and a technical agreement (TA) with them?\n\n\t\t\t\t\t Yes   No\n\n\t\t\t\t\t4.6.7b\n\nIf yes, which transport providers do you use?  Please provide a list of approved GDP ",
+          "metadata": {
+            "source": "R074927-2.0-Transporter Evaluation Form.docx",
+            "section": "part_3"
+          },
+          "relevance_score": 0.43717312812805176
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "[114] BAF Classification – specifies BAF Classification as per Reckitt BAF mechanism. It’s based on container size and type, length of transport route and if headhaul or backhaul. \n\n\n\n\n\nS – Small\n\nM – Medium\n\nL – Large\n\nX – Extra Large\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContainer size and type\n\n\n\n\n\nHeadhaul or backhaul\n\n\n\nXX XXX X XXXX\n\n\n\n\n\n\n\n\n\n\n\n\n\nLength type\n\n\n\n\n\nExample:\n\n20' DRY M Back – means 20 DRY medium backhaul BAF Classification.\n\n40' / 40'HC REF X Head – means 40 REF extra large heahdhaul BAF Classification\n\n[115] Trade – specifies tradelane for each lane. \n\n[116] Procurement Contact\t– specifies leading buyer for each lane that is main contact point for any queries. \n\nAs support to Quotation Table, Origin and Destination Special Requirements we used to attach to Transporeon “Opening hours for Origin Loading and Destination Unloading operations” and “FSP involvement in Customs Clearance and payment of VAT Duty”. This becomes part of Quotation Table in 2025 and you will find columns from [117] to [128] replacing 2 files mentioned above. \n\nGENERAL\n\nThe Freight Services Providers are free to choose the Routes for quotation, there is no requirement to quote all Routes or all Routes per Template, however, there is needed minimum scale to represent potential for allocation. \n\nRoutes omitted for quotation should be left unfilled - empty. In case any Route is quoted the Transporeon tool will require all cells in given Route to be filled in. \n\nFor very specific cases, where the cell is required to be left empty it should be filled in with dummy “99999” to make it identifiable while analyzing the offers.\n\nThe Freight Services Providers are required to quote following the pricing breakdown included in the quotation templates. Offers totaled without details will not be considered. Reckitt reserves the right to exclude from the scope of Services some quoted Services while allocating therefore each quoted position should reflect correctly the costs related to that Service.\n\nAll Charges quoted at zero (0) will be treated as the service offered free of any charge.",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "requirements (Part 18/20)"
+          },
+          "relevance_score": 0.42957112193107605
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "[114] BAF Classification – specifies BAF Classification as per Reckitt BAF mechanism. It’s based on container size and type, length of transport route and if headhaul or backhaul. \n\n\n\n\n\nS – Small\n\nM – Medium\n\nL – Large\n\nX – Extra Large\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContainer size and type\n\n\n\n\n\nHeadhaul or backhaul\n\n\n\nXX XXX X XXXX\n\n\n\n\n\n\n\n\n\n\n\n\n\nLength type\n\n\n\n\n\nExample:\n\n20' DRY M Back – means 20 DRY medium backhaul BAF Classification.\n\n40' / 40'HC REF X Head – means 40 REF extra large heahdhaul BAF Classification\n\n[115] Trade – specifies tradelane for each lane. \n\n[116] Procurement Contact\t– specifies leading buyer for each lane that is main contact point for any queries. \n\nAs support to Quotation Table, Origin and Destination Special Requirements we used to attach to Transporeon “Opening hours for Origin Loading and Destination Unloading operations” and “FSP involvement in Customs Clearance and payment of VAT Duty”. This becomes part of Quotation Table in 2025 and you will find columns from [117] to [128] replacing 2 files mentioned above. \n\nGENERAL\n\nThe Freight Services Providers are free to choose the Routes for quotation, there is no requirement to quote all Routes or all Routes per Template, however, there is needed minimum scale to represent potential for allocation. \n\nRoutes omitted for quotation should be left unfilled - empty. In case any Route is quoted the Transporeon tool will require all cells in given Route to be filled in. \n\nFor very specific cases, where the cell is required to be left empty it should be filled in with dummy “99999” to make it identifiable while analyzing the offers.\n\nThe Freight Services Providers are required to quote following the pricing breakdown included in the quotation templates. Offers totaled without details will not be considered. Reckitt reserves the right to exclude from the scope of Services some quoted Services while allocating therefore each quoted position should reflect correctly the costs related to that Service.\n\nAll Charges quoted at zero (0) will be treated as the service offered free of any charge.",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "identity (Part 20/22)"
+          },
+          "relevance_score": 0.42957112193107605
+        }
+      ]
+    },
+    "identity.contract_type": {
+      "question_id": "identity.contract_type",
+      "answer": "call-off contract (Technical Agreement as part of Contract)",
+      "sources": [
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+          "section": "Table_11"
+        },
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "section": "Table_18"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\tThe parties acknowledge that the following key principles are agreed and are to be observed by the parties involved, in accordance with the regulations and legislations set out in clause 1 above.\n",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "Table_11"
+          },
+          "relevance_score": 0.49345695972442627
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "logies, plans, specifications, know-how, ideas or other business, commercial or financial information or any other information that is confidential in nature (“Confidential Information”).  Both parties undertake that, during the term of this Agreement  and after the expiry or termination of this Agreement, they and their employees shall: (a) shall keep Confidential  Information confidential; (b) shall only disclose Confidential Information to those of their employees as strictly necessary to perform their obligations under this Agreement; (c) shall not disclose Confidential Information to any third party without obtaining the prior written consent of the other party; (d) shall not use Confidential Information for any purposes other than in connection with their obligations as set out in this Agreement; and (e) at any time upon the written request of the other party, will return all Confidential Information belonging to the party making the request to that party.\n\n\t\n\n\t4.2\tThe obligations of confidentiality set out in paragraph 4 shall not extend to: (a) information which is now or hereafter comes into the public domain other than through the default of the party who received the information; (b) information which the a party  learns or has learned from a third party acting in good faith who has not derived the same directly or indirectly from the party who disclosed the information or its affiliates; or (c) any disclosure properly required by any governmental, supra-national or other competent court or authority in which case the party who received the information shall (where permitted to do so) promptly notify the party who disclosed the information of the facts relating to the disclosure.   \n\n\t\n\n\tData Protection\n\n\t\n\n\tFor clause 4.3 the following definitions apply: \n\n\t\"Data Protection Legislation\" means any applicable legislation protecting the personal data of natural persons, including in particular the General Data Protection Regulation (EU) 2016/679 of the European Parliament and of the Council (\"GDPR\"), any supplementary legislation of any Member State of the European Economic Area (\"Member State\"",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "part_4"
+          },
+          "relevance_score": 0.4502063989639282
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "\tThe Routes requiring coverage with a Technical Agreement should only be quoted on the grounds that the Freight Services Provider will comply with and sign a Technical Agreement (containing substantively the same obligations as those set out in the Sample Indicative Technical Agreements set out at Schedule D) within 2 weeks of the Routes and Rates Allocation Date of the Contract.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_18"
+          },
+          "relevance_score": 0.4482719898223877
+        }
+      ]
+    },
+    "identity.contract_duration": {
+      "question_id": "identity.contract_duration",
+      "answer": "Contract takes effect on the Effective Date and continues until the 5th Routes Anniversary date (Term); cannot continue beyond the 5th Routes Anniversary date.",
+      "sources": [
+        {
+          "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+          "section": "Table_6"
+        },
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "section": "Table_7"
+        }
+      ],
+      "confidence": 0.8,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\tSubject to clause 2.3 the Contract shall take effect on the Effective Date and shall continue until the 5th Routes Anniversary date (“Term”) unless agreed otherwise by the Parties in writing. In no event shall the Contract continue beyond the 5th Routes Anniversary date.\n",
+          "metadata": {
+            "source": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+            "section": "Table_6"
+          },
+          "relevance_score": 0.4956924021244049
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "\tPayment term for any Demurrage / Detention / Storage / Electricity Costs / Waiting Time Charges shall be as defined in Clause 10.4.\n",
+          "metadata": {
+            "source": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+            "section": "Table_28"
+          },
+          "relevance_score": 0.409118115901947
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "\tCharges must be valid from 1st Jul 2025 until 30th Jun 2026 for all Routes (Container on Board Date)\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_7"
+          },
+          "relevance_score": 0.39793241024017334
+        }
+      ]
+    }
+  },
+  "summary": {
+    "client": "Reckitt",
+    "client_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "reference": "Reckitt Global Ocean Freight 2025",
+    "reference_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "deadline": [
+      {
+        "label": "Round 1 response period",
+        "date": "2025-02-24",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "24th February 2025 – 28th February 2025\n\nRound 1"
+          }
+        ]
+      },
+      {
+        "label": "Round 1 response period end",
+        "date": "2025-02-28",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "24th February 2025 – 28th February 2025\n\nRound 1"
+          }
+        ]
+      },
+      {
+        "label": "Round 2 response period",
+        "date": "2025-03-03",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "03rd March 2025 – 21st March 2025\n\nRound 2 response period"
+          }
+        ]
+      },
+      {
+        "label": "Round 2 response deadline (ITT Round 2 response deadline)",
+        "date": "2025-03-21",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "21st March 2025 (3pm CET)\n\nITT Round 2 response deadline"
+          }
+        ]
+      },
+      {
+        "label": "Online & face to face meetings period",
+        "date": "2025-03-06",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "6th March 2025 – 19th March 2025\n\nOnline & face to face meetings"
+          }
+        ]
+      },
+      {
+        "label": "Online & face to face meetings period end",
+        "date": "2025-03-19",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "6th March 2025 – 19th March 2025\n\nOnline & face to face meetings"
+          }
+        ]
+      },
+      {
+        "label": "Round 2 response analysis and offers fine tuning period",
+        "date": "2025-03-24",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "24th March 2025 – 4th April 2025\n\nRound 2\n\nResponse Analysis and offers fine tuning"
+          }
+        ]
+      },
+      {
+        "label": "Round 2 response analysis and offers fine tuning period end",
+        "date": "2025-04-04",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "24th March 2025 – 4th April 2025\n\nRound 2\n\nResponse Analysis and offers fine tuning"
+          }
+        ]
+      },
+      {
+        "label": "Upload of fine tuned offers period start",
+        "date": "2025-04-07",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "7th April 2025 – 15th April 2025\n\nUpload of fine tunned offers"
+          }
+        ]
+      },
+      {
+        "label": "Upload of fine tuned offers period end",
+        "date": "2025-04-15",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "7th April 2025 – 15th April 2025\n\nUpload of fine tunned offers"
+          }
+        ]
+      },
+      {
+        "label": "Reckitt internal alignment and allocation approval period start",
+        "date": "2025-04-16",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "16th April 2025 – 23rd May 2025\n\nReckitt internal alignment and allocation approval"
+          }
+        ]
+      },
+      {
+        "label": "Reckitt internal alignment and allocation approval period end",
+        "date": "2025-05-23",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "16th April 2025 – 23rd May 2025\n\nReckitt internal alignment and allocation approval"
+          }
+        ]
+      },
+      {
+        "label": "Award announcement (week commencing)",
+        "date": "2025-05-26",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "Week commencing 26th May 2025\n\nAward announcement"
+          }
+        ]
+      },
+      {
+        "label": "Commencement of service",
+        "date": "2025-07-01",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "1st July 2025\n\nCommencement of service   (all Regions)"
+          }
+        ]
+      },
+      {
+        "label": "Deadline for concerns or queries about the Tenderer’s Statement",
+        "date": "2025-02-23",
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | Table_29",
+            "snippet": "Any concerns or queries about the Tenderer’s Statement must be submitted a minimum of five working days before the ITT Round 1 Response Deadline."
+          },
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx | evaluation (Part 2/13)",
+            "snippet": "24th February 2025 – 28th February 2025\n\nRound 1"
+          }
+        ]
+      }
+    ],
+    "deadline_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "submission": "Transporeon",
+    "submission_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "deliverables": [
+      "Signed Tenderer's Statement (including name of Freight Services Provider, signature, name and status)",
+      "Evidence/information of compliance with Buyer’s Corporate Standards (including reports of any violations, and evidence as requested)",
+      "Independent audit reports by a Competent Third Party Auditor (or availability to undertake such audits)",
+      "Accommodation of site visits by Buyer representatives or affiliates to verify compliance",
+      "Approved Subcontractors List (Appendix 4)",
+      "Contract Acceptor Contact List (Appendix 3 / completed contact list)",
+      "Documentation demonstrating maintenance of specific transportation requirements (e.g., temperature and humidity) available on request"
+    ],
+    "deliverables_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "countries": [
+      "Kenya",
+      "Uganda",
+      "South Sudan",
+      "Rwanda",
+      "Poland",
+      "Ukraine",
+      "Israel",
+      "South Africa",
+      "Ashdod (Israel - port)",
+      "Haifa (Israel - port)"
+    ],
+    "countries_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "scope": "Freight transportation services (international freight forwarding across ocean/air/road/rail including containerised ocean shipments)",
+    "scope_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "contract_type": "call-off contract (Technical Agreement as part of Contract)",
+    "contract_type_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "duration": "Contract takes effect on the Effective Date and continues until the 5th Routes Anniversary date (Term); cannot continue beyond the 5th Routes Anniversary date.",
+    "duration_quality": {
+      "confidence": 0.8,
+      "sources_count": 3,
+      "status": "success"
+    }
+  },
+  "metadata": {
+    "total_chunks_analyzed": 27,
+    "documents_referenced": [
+      "TPT000316-2.0-Global Non-Medicinal Transporter TA Template.docx",
+      "Tenderer's Statement 2025.pdf",
+      "R074927-2.0-Transporter Evaluation Form.docx",
+      "Reckitt Instructions to 2025 Quotation Tables.docx",
+      "TPT000315-2.0-GDP Technical Agreement Template.docx",
+      "Reckitt Global Ocean Freight 2025 ITT.docx",
+      "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx"
+    ]
+  },
+  "stats": {
+    "total": 9,
+    "success": 9,
+    "failed": 0,
+    "total_chunks_used": 27,
+    "cache_hits": 9,
+    "cache_misses": 0,
+    "time_seconds": 69.191981,
+    "avg_chunks_per_question": 3.0
+  }
+}

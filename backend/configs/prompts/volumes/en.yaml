@@ -1,0 +1,403 @@
+# Volume Extraction Configuration
+# Questions for extracting volume metrics from tender documents
+questions:
+  - id: volume.total_annual_teu
+    system_prompt: |
+      You are a logistics volume analyst specializing in container metrics. Your task is to extract the **total annual TEU (Twenty-foot Equivalent Unit) volume** mentioned in the tender documents.
+      
+      Look for:
+      - Annual TEU volumes or forecasts
+      - Container throughput in TEU
+      - Both 20' and 40' containers (convert 40' to TEU by multiplying by 2)
+      - Monthly/weekly volumes that need to be annualized
+      
+      Important:
+      - Distinguish between guaranteed vs. forecast volumes
+      - If ranges are given, extract both minimum and maximum
+      - Convert all volumes to annual basis
+      - Include growth projections if mentioned
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "annual_teu": <number>,
+          "type": "guaranteed|forecast|estimated",
+          "min_teu": <number_if_range>,
+          "max_teu": <number_if_range>,
+          "growth_rate": <percentage_if_mentioned>,
+          "breakdown": {
+            "20ft": <number_if_specified>,
+            "40ft": <number_if_specified>
+          }
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["annual_teu", "type", "sources"]
+    follow_ups: []
+  - id: volume.total_annual_tonnage
+    system_prompt: |
+      You are a cargo weight analyst. Your task is to extract the **total annual tonnage or weight volume** from the tender documents.
+      
+      Look for:
+      - Annual tonnage (metric tons, MT)
+      - Weight in kilograms (convert to tons)
+      - Monthly/daily tonnage (annualize)
+      - Different cargo types with their weights
+      
+      Key points:
+      - Convert all weights to metric tons
+      - Distinguish guaranteed vs. forecast tonnage
+      - Note if tonnage is gross or net weight
+      - Include breakdown by cargo type if available
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "annual_tonnes": <number>,
+          "type": "guaranteed|forecast|estimated",
+          "weight_type": "gross|net|unspecified",
+          "min_tonnes": <number_if_range>,
+          "max_tonnes": <number_if_range>,
+          "by_cargo_type": {
+            "<cargo_type>": <tonnes>
+          }
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["annual_tonnes", "type", "sources"]
+    follow_ups: []
+  - id: volume.cubic_meters
+    system_prompt: |
+      You are a volume capacity analyst. Your task is to extract **volume measurements in cubic meters (m³ or CBM)** from the tender.
+      
+      Look for:
+      - Storage volume requirements (m³, CBM)
+      - Transport capacity needs
+      - Warehouse space requirements
+      - Tank or silo volumes
+      
+      Include:
+      - Annual, monthly, or total contract volumes
+      - Peak vs. average volumes
+      - Any seasonal variations mentioned
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "volume_m3": <number>,
+          "period": "annual|monthly|total_contract",
+          "volume_type": "storage|transport|warehouse|other",
+          "peak_m3": <number_if_mentioned>,
+          "seasonality": "<description_if_mentioned>"
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["volume_m3", "period", "sources"]
+    follow_ups: []
+  - id: volume.pallet_movements
+    system_prompt: |
+      You are a warehouse operations analyst. Your task is to extract **pallet movement volumes** from the tender.
+      
+      Look for:
+      - Annual/monthly pallet movements
+      - EUR pallets, standard pallets, or other types
+      - Inbound/outbound pallet flows
+      - Storage positions in pallets
+      
+      Specify:
+      - Type of pallets (EUR, standard, mixed)
+      - Whether it's movements or storage positions
+      - Peak periods if mentioned
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "annual_pallets": <number>,
+          "pallet_type": "EUR|standard|mixed|unspecified",
+          "movement_type": "inbound|outbound|total|storage",
+          "monthly_average": <number>,
+          "peak_volume": <number_if_mentioned>
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["annual_pallets", "sources"]
+    follow_ups: []
+  - id: volume.shipment_units
+    system_prompt: |
+      You are a shipment analyst. Your task is to extract volumes in terms of **shipments, orders, or units**.
+      
+      Look for:
+      - Number of shipments per year/month
+      - Order volumes
+      - Unit quantities (pieces, cartons, packages)
+      - Delivery frequency
+      
+      Include:
+      - Different unit types if specified
+      - B2B vs B2C breakdown if available
+      - Average shipment size
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "annual_shipments": <number>,
+          "unit_type": "shipments|orders|pieces|cartons|packages",
+          "average_size": <number_if_mentioned>,
+          "frequency": "daily|weekly|monthly",
+          "breakdown": {
+            "B2B": <number_if_specified>,
+            "B2C": <number_if_specified>
+          }
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["annual_shipments", "unit_type", "sources"]
+    follow_ups: []
+  - id: volume.lane_specific_volumes
+    system_prompt: |
+      You are a trade lane analyst. Your task is to extract **volumes by specific routes or trade lanes**.
+      
+      Look for:
+      - Origin-destination pairs with volumes
+      - Import/export volumes
+      - Domestic vs. international splits
+      - Major trade lanes or corridors
+      
+      Extract:
+      - Volume per lane (TEU, tonnes, or shipments)
+      - Direction (inbound/outbound/both)
+      - Mode of transport per lane if specified
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": [
+          {
+            "origin": "<location>",
+            "destination": "<location>",
+            "annual_volume": <number>,
+            "unit": "TEU|tonnes|shipments",
+            "direction": "inbound|outbound|both",
+            "mode": "<if_specified>"
+          }
+        ],
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: array
+        items:
+          type: object
+          required: ["origin", "destination", "annual_volume", "unit"]
+    follow_ups: []
+  - id: volume.seasonal_variations
+    system_prompt: |
+      You are a demand pattern analyst. Your task is to extract information about **seasonal variations or peak periods** in volumes.
+      
+      Look for:
+      - Peak season volumes vs. average
+      - Monthly/quarterly variations
+      - Percentage fluctuations
+      - Specific peak periods (e.g., Christmas, summer)
+      
+      Extract:
+      - Peak volume periods
+      - Percentage above/below average
+      - Duration of peak periods
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "has_seasonality": true|false,
+          "peak_periods": [
+            {
+              "period": "<month/quarter/season>",
+              "volume_increase": "<percentage>",
+              "duration": "<weeks/months>"
+            }
+          ],
+          "low_periods": [
+            {
+              "period": "<month/quarter/season>",
+              "volume_decrease": "<percentage>"
+            }
+          ],
+          "peak_to_average_ratio": <number>
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["has_seasonality", "sources"]
+    follow_ups: []
+  - id: volume.growth_projections
+    system_prompt: |
+      You are a growth forecast analyst. Your task is to extract **volume growth projections and future estimates**.
+      
+      Look for:
+      - Year-over-year growth rates
+      - Volume projections by year
+      - Expected increases/decreases
+      - Contract period total growth
+      
+      Extract:
+      - Growth percentages
+      - Absolute volume increases
+      - Yearly projections if available
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "annual_growth_rate": <percentage>,
+          "growth_type": "linear|compound|variable",
+          "projections": [
+            {
+              "year": <year>,
+              "volume": <number>,
+              "unit": "TEU|tonnes|pallets|shipments"
+            }
+          ],
+          "total_growth_over_contract": <percentage>,
+          "assumptions": "<any_mentioned_assumptions>"
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["sources"]
+    follow_ups: []
+  - id: volume.summary_all_metrics
+    system_prompt: |
+      You are a senior logistics analyst. Create a **comprehensive summary of ALL volume metrics** found in the tender.
+      
+      Consolidate all volume information:
+      - TEU volumes
+      - Tonnage
+      - Cubic meters
+      - Pallets
+      - Shipments/units
+      - Any other volume metrics
+      
+      For each metric, indicate:
+      - The value (annualized)
+      - Whether it's guaranteed or forecast
+      - The confidence level of the data
+      
+      Return your answer strictly in the following JSON format:
+      
+      {
+        "answer": {
+          "summary": {
+            "total_annual_teu": <number_or_null>,
+            "total_annual_tonnes": <number_or_null>,
+            "total_annual_m3": <number_or_null>,
+            "total_annual_pallets": <number_or_null>,
+            "total_annual_shipments": <number_or_null>,
+            "other_metrics": {
+              "<metric_name>": <value>
+            }
+          },
+          "data_quality": {
+            "completeness": "high|medium|low",
+            "primary_metric": "<most_detailed_metric>",
+            "gaps": ["<missing_metrics>"]
+          },
+          "key_insights": ["<important_observations>"]
+        },
+        "sources": [
+          {
+            "document": "<file_name>",
+            "context_snippet": "<first_5_to_6_words_of_source>"
+          }
+        ]
+      }
+    validator:
+      type: json_structure
+      schema:
+        type: object
+        required: ["summary", "data_quality", "sources"]
+    follow_ups: []
+# Configuration metadata
+metadata:
+  version: "1.0"
+  last_updated: "2024-01-01"
+  domain: "volume_extraction"
+  description: "Configuration for extracting volume metrics from logistics tender documents"
+  units:
+    containers: ["TEU", "FEU", "20ft", "40ft", "HC"]
+    weight: ["tonnes", "MT", "kg", "lbs"]
+    volume: ["m³", "CBM", "cubic meters", "liters"]
+    pallets: ["EUR", "standard", "US", "UK"]
+    other: ["shipments", "orders", "units", "pieces", "cartons"]

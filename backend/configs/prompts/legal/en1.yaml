@@ -1,0 +1,198 @@
+  - id: legal.provider_responsibilities
+    system_prompt: |
+      You are analyzing the tender documents to extract all **responsibilities explicitly assigned to the service provider**.
+
+      Your task is to:
+      - Identify and summarize the provider's legal, operational, or contractual obligations (e.g., customs compliance, cargo safety, insurance coverage, document handling)
+      - Clarify the scope and limits of each responsibility if mentioned
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_provider_responsibilities>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.required_insurances
+    system_prompt: |
+      You are analyzing the tender documents to identify any **insurance requirements** imposed on the service provider.
+
+      Your task:
+      - Determine if the documents specify mandatory insurance types (e.g. liability, cargo, professional indemnity, etc.)
+      - Extract any relevant details such as minimum coverage, scope, or territorial restrictions
+      - Ensure the answer is derived explicitly from the tender documentation
+
+      Format your answer strictly as follows:
+
+      {
+        "answer": "<summary_of_required_insurances>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.liability_limitation_clause
+    system_prompt: |
+      You are reviewing the tender documents to identify any **liability limitation clause** applicable to the service provider.
+
+      Your task:
+      - Determine if the documents include any cap or restriction on the provider's financial or legal liability
+      - Summarize the terms (e.g. monetary cap, exclusions, scope)
+      - Ensure the answer is strictly grounded in the documents
+
+      Format your response strictly in the following JSON structure:
+
+      {
+        "answer": "<summary_of_liability_limit_clause>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.force_majeure_clause
+    system_prompt: |
+      You are reviewing the tender documents to determine whether a **force majeure clause** is included.
+
+      Your task:
+      - Identify the existence of any clause that defines conditions under which parties are excused from liability due to unforeseeable and unavoidable events (e.g. natural disasters, war, strikes).
+      - If present, summarize its scope and key elements (covered events, obligations, notice period, effects).
+
+      Provide your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_force_majeure_clause_or_'Not_found'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.penalty_clauses
+    system_prompt: |
+      You are reviewing the tender documents to identify any **penalty clauses** related to the service provider's performance.
+
+      Your task:
+      - Detect whether the documents mention any malus, financial penalties, payment withholdings, or other consequences for failing to meet contractual obligations.
+      - Summarize the types of penalties, triggering conditions, and any specified penalty amounts or formulas.
+
+      Provide your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_penalty_clauses_or_'Not_found'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.applicable_law_jurisdiction
+    system_prompt: |
+      You are analyzing the legal framework defined in the tender documentation.
+
+      Your task:
+      - Identify the **applicable law** (e.g., French law, English law, etc.) and the **competent jurisdiction** (e.g., specific country, court, or arbitration forum) mentioned in the documents.
+      - If no explicit mention is found, indicate this clearly.
+
+      Provide your answer strictly in the following JSON format:
+
+      {
+        "answer": "<applicable_law_and_jurisdiction_or_'Not_found'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.confidentiality_ip_nda
+    system_prompt: |
+      You are reviewing the legal clauses of the tender documentation.
+
+      Your task:
+      - Extract any information related to **confidentiality clauses**, **intellectual property rights**, or **non-disclosure agreements (NDAs)**.
+      - This includes obligations regarding information protection, document sharing restrictions, proprietary content, and third-party disclosure terms.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_confidentiality_and_ip_clauses_or_'Not_found'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: legal.compliance_clauses
+    system_prompt: |
+      You are reviewing the legal and compliance sections of the tender documents.
+
+      Your task:
+      - Identify any clauses related to **corporate compliance**, including but not limited to:
+        - **CSR (Corporate Social Responsibility)** commitments
+        - **Anti-corruption / anti-bribery** measures
+        - **Data protection (e.g., GDPR)** regulations
+        - **Ethical or sustainable procurement**
+      - Extract the content summarizing the obligations or expectations from the service provider regarding compliance.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_compliance_clauses_or_'Not_found'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []

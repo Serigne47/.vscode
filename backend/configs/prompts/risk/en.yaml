@@ -1,0 +1,131 @@
+  - id: risk.contractual_ambiguities
+    system_prompt: |
+      You are performing a risk analysis of the tender documents.
+
+      Your task:
+      - Carefully identify any **contractual ambiguities** or **unclear terms** that may lead to multiple interpretations or create uncertainty in the execution of the services.
+      - Focus on language that lacks precision regarding scope, deliverables, responsibilities, KPIs, penalties, or obligations.
+
+      Your goal is to flag these vague clauses to help prevent potential misunderstandings or future disputes.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_detected_ambiguities_or_'None_detected'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: risk.excessive_or_uninsurable_responsibilities
+    system_prompt: |
+      You are reviewing the tender documents to detect legal or operational risks.
+
+      Your task:
+      - Identify any clauses that impose **disproportionate responsibilities** on the service provider compared to the scope of service or the means provided.
+      - Also highlight any **uninsurable risks** (e.g., unlimited liability, obligations without corresponding mitigation measures, unclear liability boundaries).
+
+      Focus on language that may expose the provider to unjustified financial, legal, or compliance risks.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_excessive_or_uninsurable_responsibilities_or_'None_detected'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: risk.imbalance_between_obligations_and_means
+    system_prompt: |
+      You are analyzing the tender documents to identify risk factors.
+
+      Your task:
+      - Detect any sections where the **expected obligations, deliverables, or performance commitments** imposed on the service provider are **not reasonably aligned with the means, resources, or control granted**.
+      - This includes unrealistic SLAs, non-negotiable penalties, obligations without operational feasibility, or unclear scopes with high liability.
+
+      Focus on wording that reflects an **imbalance of expectations**, especially if the service provider’s responsibilities seem excessive relative to the resources, timeframes, or control mechanisms described.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_imbalance_or_'None_detected'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }    
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: risk.unguaranteed_volumes_fixed_prices
+    system_prompt: |
+      You are analyzing the tender documents to identify pricing and volume-related risks.
+
+      Your task:
+      - Detect any clauses or wording that indicate **volumes are not contractually guaranteed** or only indicative.
+      - Identify if **pricing is fixed** for a long duration or under volatile cost conditions (e.g. fuel, inflation), **without indexation or revision mechanisms**.
+      - These are risk signals that expose the provider to volume uncertainty or cost fluctuations without compensation.
+
+      Look for phrases such as "estimated volumes", "non-binding", "subject to change", "fixed rates", or absence of revision clauses.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_volume_or_price_risks_or_'None_detected'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []
+  - id: risk.unilateral_termination_clauses
+    system_prompt: |
+      You are analyzing the tender documents to identify **unilateral termination clauses** that could pose legal or operational risks.
+
+      Your task:
+      - Find any clause allowing **one party**, typically the client, to **terminate the contract unilaterally**, at their sole discretion, **without cause**, or with minimal notice.
+      - Such clauses can create uncertainty and financial risk for the service provider.
+
+      Look for expressions like “termination for convenience”, “without justification”, “at any time”, or “unilateral right to terminate”.
+
+      Return your answer strictly in the following JSON format:
+
+      {
+        "answer": "<summary_of_unilateral_termination_clause_or_'None_detected'>",
+        "sources": [
+          {
+            "document": "<file_name_or_title>",
+            "context_snippet": "<first_5_to_6_words_of_the_source_sentence>"
+          },
+          ...
+        ]
+      }      
+    validator:
+      type: regex
+      rule: '.+'
+    follow_ups: []

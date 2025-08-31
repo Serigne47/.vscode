@@ -1,0 +1,439 @@
+{
+  "timestamp": "2025-08-22T15:59:18.827979",
+  "questions": {
+    "execution.transport_mode": {
+      "question_id": "execution.transport_mode",
+      "answer": {},
+      "sources": [
+        {
+          "document": "Reckitt Instructions to 2025 Quotation Tables.docx",
+          "section": "scope (Part 4/24)"
+        },
+        {
+          "document": "Reckitt Instructions to 2025 Quotation Tables.docx",
+          "section": "identity (Part 1/22)"
+        },
+        {
+          "document": "Reckitt Instructions to 2025 Quotation Tables.docx",
+          "section": "commercial (Part 3/24)"
+        }
+      ],
+      "confidence": 0.0,
+      "status": "failed",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "Truck1 / Truck2 – Routes using only Truck as transportation method. Those are part of FCL Tender as those are complementary to Ocean Freight, hence better to have them in same RFQ. Estimated Annual Volume on Truck Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nRail1 / Rail2 - Routes using Rail as main transportation method (instead of Ocean). Due to rail freight Those are part of FCL Tender as those are complementary to Ocean Freight, hence better to have them in same RFQ. Estimated Annual Volume on Rail Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nAlternative – Routes being an Alternative option having different Routing vs the Standard / Express / Super Express / Truck / Rail Route; the Estimated Annual Volume on such Routes should be treated as within the Estimated Annual Volume on Standard / Express / Super Express / Truck / Rail Lanes. Examples of Alternative scenarios in current tender:\n\nIsrael: Standard lane is designed to Ashdod, while we would like to explore (and potentially to use) also Haifa port which is being setup in Alternative scenario.\n\nSouth Africa: Standard lane scope is to port, while we are currently in evaluation stage of having it to door for selected lanes (Alternative scenario). \n\n[19] Origin Service / Port Requirements – defines requirements for origin service and origin port based on which the Route needs to be quoted. \n\n[20] Ocean Routing Requirements – defines requirements for ocean routing based on which the Route needs to be quoted. \n\n\n\n[21] Ocean TT Requirements – defines requirements for ocean transit time based on which the Route needs to be quoted. \n\n[22] Ocean Frequency Requirements – defines requirements for ocean frequency based on which the Route needs to be quoted. \n\n[23] Destination Service / Port Requirements – defines requirements for destination service and destination port routing based on which the Route needs to be quoted. ",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "scope (Part 4/24)"
+          },
+          "relevance_score": 0.4720473289489746
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "Super Express1 – Routes being the quickest available connection under non-Standard Routing as indicated in the Origin Service / Port, Ocean Routing, Ocean TT, Ocean Frequency & Ocean Destination Service / Port Requirements in the Quotation Table. Estimated Annual Volume on Super Express Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nTruck1 / Truck2 – Routes using only Truck as transportation method. Those are part of FCL Tender as those are complementary to Ocean Freight, hence better to have them in same RFQ. Estimated Annual Volume on Truck Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nRail1 / Rail2 - Routes using Rail as main transportation method (instead of Ocean). Due to rail freight Those are part of FCL Tender as those are complementary to Ocean Freight, hence better to have them in same RFQ. Estimated Annual Volume on Rail Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nAlternative – Routes being an Alternative option having different Routing vs the Standard / Express / Super Express / Truck / Rail Route; the Estimated Annual Volume on such Routes should be treated as within the Estimated Annual Volume on Standard / Express / Super Express / Truck / Rail Lanes. Examples of Alternative scenarios in current tender:\n\nIsrael: Standard lane is designed to Ashdod, while we would like to explore (and potentially to use) also Haifa port which is being setup in Alternative scenario.\n\nSouth Africa: Standard lane scope is to port, while we are currently in evaluation stage of having it to door for selected lanes (Alternative scenario). \n\n[19] Origin Service / Port Requirements – defines requirements for origin service and origin port based on which the Route needs to be quoted. \n\n[20] Ocean Routing Requirements – defines requirements for ocean routing based on which the Route needs to be quoted. \n\n",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "identity (Part 1/22)"
+          },
+          "relevance_score": 0.4607018530368805
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "Express1 / Express2 – Routes being an Express option vs the Standard Route taking non-Standard routing to shorten Transit Time vs Standard routing. Express Routes needs to be quoted in line with routing instructions provided in Origin Service / Port, Ocean Routing, Ocean TT, Ocean Frequency & Ocean Destination Service / Port Requirements in the Quotation Table. Estimated Annual Volume on Express Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nSuper Express1 – Routes being the quickest available connection under non-Standard Routing as indicated in the Origin Service / Port, Ocean Routing, Ocean TT, Ocean Frequency & Ocean Destination Service / Port Requirements in the Quotation Table. Estimated Annual Volume on Super Express Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nTruck1 / Truck2 – Routes using only Truck as transportation method. Those are part of FCL Tender as those are complementary to Ocean Freight, hence better to have them in same RFQ. Estimated Annual Volume on Truck Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nRail1 / Rail2 - Routes using Rail as main transportation method (instead of Ocean). Due to rail freight Those are part of FCL Tender as those are complementary to Ocean Freight, hence better to have them in same RFQ. Estimated Annual Volume on Rail Routes should be treated as on the top vs the Estimated Annual Volume on Standard Lanes.\n\nAlternative – Routes being an Alternative option having different Routing vs the Standard / Express / Super Express / Truck / Rail Route; the Estimated Annual Volume on such Routes should be treated as within the Estimated Annual Volume on Standard / Express / Super Express / Truck / Rail Lanes. Examples of Alternative scenarios in current tender:",
+          "metadata": {
+            "source": "Reckitt Instructions to 2025 Quotation Tables.docx",
+            "section": "commercial (Part 3/24)"
+          },
+          "relevance_score": 0.44519364833831787
+        }
+      ]
+    },
+    "execution.expected_services": {
+      "question_id": "execution.expected_services",
+      "answer": {
+        "result": [
+          "temperature-controlled transport",
+          "cross-docking",
+          "container security seals/tags application",
+          "temperature recording (monitoring/tracking)",
+          "unloading at hub/warehouse",
+          "warehousing (temperature-controlled storage)",
+          "proof of delivery (PoD)",
+          "audits/access to facilities",
+          "booking unloading slots/haulage",
+          "customs clearance (Import Customs Clearance)",
+          "ISF filing/filing to US Authorities",
+          "demurrage/detention/storage management"
+        ],
+        "sources": [
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_9)",
+            "snippet": "Temperature control must be active throughout the end-to-end transport chain until the point where the product is unloaded. In case of cross-docking, temperature control must be active during all transportation segments and in the cross-docking facility."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_9)",
+            "snippet": "Ensure that container security seals and tags are applied adequately to each opening door."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_9)",
+            "snippet": "Temperature controlled vehicle should have temperature recording devices which take continuous or periodic readings at 15 minute intervals as a minimum."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_8)",
+            "snippet": "In case of unloading at the hub, conditions ... an unloading check must be performed, and a checklist completed for every container unloaded."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_8)",
+            "snippet": "The time Products are stored in temperature-controlled containers should be minimised. Containers should be unloaded within 6 hours of reaching the receiving warehouse."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_8)",
+            "snippet": "Ensure after delivery of the Products to the consignee, Proof of Delivery (PoD) is made available as confirmation of the delivery."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_8)",
+            "snippet": "Provide reasonable access at pre-agreed times to permit audits of the relevant facilities and documentation by RB or the Regulatory Authorities."
+          },
+          {
+            "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx (main_content Part 17/26)",
+            "snippet": "Such booking of the unloading slot needs to happen the latest within the first working day after the Container is released by Carrier and made available for collection by the arrival Port, in parallel to managing customs clearance."
+          },
+          {
+            "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx (main_content Part 17/26)",
+            "snippet": "Import Customs Clearance is managed Reckitt appointed Broker."
+          },
+          {
+            "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx (main_content Part 17/26)",
+            "snippet": "ISF filing is filed to US Authorities by the Broker based on ISF form prepared by Freight Service Providers"
+          },
+          {
+            "document": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx (main_content Part 17/26)",
+            "snippet": "Freight Service Provider has a right to charge extra demurrage / detention / storage / electricity ... Any cases of unavailable unloading slots leading to potential extra demurrages must be notified..."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_9)",
+          "snippet": "Temperature control must be active throughout the end-to-end transport chain until the point where the product is unloaded. In case of cross-docking, temperature control must be active during all transportation segments and in the cross-docking facility."
+        },
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_9)",
+          "snippet": "Ensure that container security seals and tags are applied adequately to each opening door."
+        },
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx (part_9)",
+          "snippet": "Temperature controlled vehicle should have temperature recording devices which take continuous or periodic readings at 15 minute intervals as a minimum."
+        }
+      ],
+      "confidence": 0.8800000000000001,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "only (Double click on the box and then select check to make the selection)\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\n\t\t6.1.26\n\nThe container used must meet the following specification:\n\nThe container must be in a good clean condition, free of damages, debris and odour.\n\n\n\n\n\nü\n\n\t\t6.1.27\n\nEnsure that container security seals and tags are applied adequately to each opening door.\n\n\n\nü\n\n\t\t6.1.28\n\nTemperature control must be active throughout the end-to-end transport chain until the point where the product is unloaded. In case of cross-docking, temperature control must be active during all transportation segments and in the cross-docking facility.\n\n\n\nü\n\n\t\t6.1.29\n\nMeasures are taken to avoid condensation to the extent possible.\n\n\n\nü\n\n\n\n\n\n☐ For Road freight only (Double click on the box and then select check to make the selection)\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\n\t\t6.1.30\n\nSubject to booking and information provided to Provider:\n\n- Setpoint for controlled temperature conditions for transport at 15-25°C\n\n- Temperature controlled vehicle should have temperature recording devices which take continuous or periodic readings at 15 minute intervals as a minimum.\n\n\n\nü\n\n\t\t6.1.31\n\nSecurity seals and tags shall be applied in accordance with local procedures adequately to each opening door.\n\n\n\nü\n\n\t\t6.1.32\n\nMeasures are taken to avoid condensation to the extent possible.\n\n\n\nü\n\n\n\n\n\n☐ For Air freight only (Double click on the box and then select check to make the selection)\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\n\t\t6.1.33\n\nEnsure validated/ approved thermal blankets or passive solutions as stipulated by RB are applied on to every single pallet to prevent temperature excursions. \n\n\n\nü\n\n\t\t6.1.34\n\nEnsure Airway Bill (AWB) is generated and shared with the customs broker before dispatch of the Product.\n\n\n\nü\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n6.2 Documentation and Communication\n\n\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\nBoth Parties\n\n\t\t6.2.1\n\n\t\tEnsure contact lists for communication are maintained and any changes promptly communicated to the other party.\n\n\n\n\n\nü\n\n6.2.2\n\nProvide the necessary documentation to specify the necessary storage conditions and any handling/safety instructi",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "part_9"
+          },
+          "relevance_score": 0.5040301084518433
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "vide copies of the appropriate licences such as WDA(H) and GDP certificates. \n\n\n\nü\n\n\n\n6.1.18\n\nIn case of unloading at the hub, conditions in 6.1.13, 14 and 15 are applicable.\n\nIn addition, an unloading check must be performed, and a checklist completed for every container unloaded. Checks must include:\n\n- a visual inspection of stock for damage and moisture\n\n- temperature and humidity control confirmed with excursions documented and RB informed.\n\n\n\nü\n\n\n\n6.1.19\n\nIn case of transfer by hub, disposable data loggers shall remain in place until arrival at the final destination.\n\n\n\nü\n\n\n\n\t\t6.1.20\n\nUnloading the container (at warehouse or hub):\n\n- Reefer containers should be transported from arrival port at destination to the receiving warehouse with activated power supplies (also called Gen Sets) to ensure that temperature and humidity controls are maintained for those lanes where this is required as indicated by RB. \n\n- Unloading the container should be performed in such a manner that the temperature control of the product is maintained and the Gen Set only turned off once the container is unloaded.\n\n\n\nü\n\n\n\n\t\t6.1.21\n\nThe time Products are stored in temperature-controlled containers should be minimised. Containers should be unloaded within 6 hours of reaching the receiving warehouse. If this cannot be respected, RB shall be informed.\n\n\n\n\n\nü\n\n\t\t6.1.22\n\nEnsure compliance with all relevant principles, guidelines and legislation relating to GDP as appropriate.\n\n\n\n\n\nü\n\n\t\t6.1.23\n\nProvide reasonable access at pre-agreed times to permit audits of the relevant facilities and documentation by RB or the Regulatory Authorities.  \n\n\n\n\n\nü\n\n\n\n\t\t6.1.24\n\nDeliveries shall be made to the address stated on the delivery note only and into the care or the premises of the consignee. Ensure that the goods are delivered in the most efficient and straightforward route without extra handling, unnecessary detours or avoidable delays.\n\n\n\nü\n\n\n\n\t\t6.1.25\n\nEnsure after delivery of the Products to the consignee, Proof of Delivery (PoD) is made available as confirmation of the delivery.\n\n\n\nü\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐ For Ocean freight ",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "part_8"
+          },
+          "relevance_score": 0.5033583641052246
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "Freight Service Provider has a right to charge extra demurrage / detention / storage / electricity on condition that the unloading DC had no free unloading slots available within agreed Destination Free Time at Freight Service Provider attempt to book. Such booking of the unloading slot needs to happen the latest within the first working day after the Container is released by Carrier and made available for collection by the arrival Port, in parallel to managing customs clearance. Any cases of unavailable unloading slots leading to potential extra demurrages must be notified to Reckitt UK Logistics Team immediately after noticed. Any demurrages caused by Freight Service Provider’s failure or delay in booking unloading slots or assuring haulage service will not be accepted.\n\n\n\n\n\nUnited States (Reckitt USA- all destinations) \n\n\n\nImport Customs Clearance is managed Reckitt appointed Broker. \n\nISF filing is filed to US Authorities by the Broker based on ISF form prepared by Freight Service Providers and e-mailed to corresponding Broker’s ISF contact \n\nShipment Type \n\nEmail\n\nInternational shipments\n\nRLFCAE@dhl.com\n\nSan Diego\n\nReckitt.SAN@dhl.com\n\nLaredo\n\nReckitt.LRD@dhl.com\n\nNogales\n\nReckitt.NOG@dhl.com\n\nCanada Shipments\n\nics.bws@dhl.com\n\nAll shipments (cc)\n\nMolly.Taylor@reckitt.com\n\n\n\nISF information must be provided, without exception, 72h prior to shipment departure, with all information common to the ISF, commercial invoice, packing list and all other shipping documents matching. Details on ISF from are partially provided by Freight Service Provider (B/L #, Vessel/Voyage details) and partially collected by Freight Service from Factory (base on Commercial Invoice/Packing List) and filled into the Form.\n\nISF information is required to be sent in the following Ocean/ ISF Format: Ocean Destination Station Code, ISF, Customer Name, HBL #, ETS ddmmm as per below example:\n\nOFR Example: PDX, OFR, Company Name LLC, HBL# 1SH234721, ETA 01FEB\n\nISF Example: CHS, ISF, Company Name LLC, HBL# 1SH234721, ETS 02MAR",
+          "metadata": {
+            "source": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+            "section": "main_content (Part 17/26)"
+          },
+          "relevance_score": 0.48462778329849243
+        }
+      ]
+    },
+    "execution.operational_requirements": {
+      "question_id": "execution.operational_requirements",
+      "answer": {
+        "result": [
+          "Equipment for temperature-sensitive products must be qualified per manufacturer's specification including mapping study accounting for extreme seasonal variations.",
+          "Containers must be clean, free of damage, debris and odour.",
+          "Container security seals and tags must be applied adequately to each opening door.",
+          "Active temperature control must be maintained end-to-end until product is unloaded; for cross-docking this includes all transport segments and the cross-docking facility.",
+          "Measures must be taken to avoid condensation as far as possible.",
+          "For road freight setpoint for controlled transport conditions is 15–25°C.",
+          "Temperature-controlled vehicles must have temperature recording devices taking continuous or periodic readings at minimum 15-minute intervals.",
+          "For air freight validated/approved thermal blankets or passive solutions must be applied to every pallet to prevent excursions.",
+          "Airway Bill (AWB) must be generated and shared with the customs broker before dispatch.",
+          "Provide and maintain contact lists for communication and promptly inform of changes.",
+          "Provide necessary documentation specifying storage conditions and handling/safety instructions and provide copies of licences such as WDA(H) and GDP certificates.",
+          "Unloading checks must be performed with a checklist including visual inspection for damage and moisture; temperature and humidity control confirmed with excursions documented and RB informed.",
+          "Disposable data loggers shall remain in place until arrival at final destination when transfer by hub.",
+          "Reefer containers must be transported from port with activated power supplies (Gen Sets) where required; Gen Set only turned off once container is unloaded.",
+          "Containers should be unloaded within 6 hours of reaching the receiving warehouse; inform RB if not possible.",
+          "Ensure compliance with GDP principles, guidelines and legislation.",
+          "Provide reasonable access at pre-agreed times for audits of facilities and documentation by RB or Regulatory Authorities.",
+          "Deliveries must be made to address on delivery note only and into care/premises of consignee; provide Proof of Delivery after delivery."
+        ],
+        "sources": [
+          {
+            "document": "R074927-2.0-Transporter Evaluation Form.docx",
+            "snippet": "Has the equipment used for temperature-sensitive products been qualified (e.g.: containers or trailers) by and according to manufacturer’s specification including a mapping study taking into account extreme seasonal variations in summer and winter?"
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "The container must be in a good clean condition, free of damages, debris and odour."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Ensure that container security seals and tags are applied adequately to each opening door."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Temperature control must be active throughout the end-to-end transport chain until the point where the product is unloaded. In case of cross-docking, temperature control must be active during all transportation segments and in the cross-docking facility."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Measures are taken to avoid condensation to the extent possible."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Setpoint for controlled temperature conditions for transport at 15-25°C"
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Temperature controlled vehicle should have temperature recording devices which take continuous or periodic readings at 15 minute intervals as a minimum."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Ensure validated/ approved thermal blankets or passive solutions as stipulated by RB are applied on to every single pallet to prevent temperature excursions."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Ensure Airway Bill (AWB) is generated and shared with the customs broker before dispatch of the Product."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Ensure contact lists for communication are maintained and any changes promptly communicated to the other party."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Provide the necessary documentation to specify the necessary storage conditions and any handling/safety instructi...vide copies of the appropriate licences such as WDA(H) and GDP certificates."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "an unloading check must be performed, and a checklist completed for every container unloaded. Checks must include: - a visual inspection of stock for damage and moisture - temperature and humidity control confirmed with excursions documented and RB informed."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "In case of transfer by hub, disposable data loggers shall remain in place until arrival at the final destination."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Reefer containers should be transported from arrival port at destination to the receiving warehouse with activated power supplies (also called Gen Sets) ... Unloading the container should be performed in such a manner that the temperature control of the product is maintained and the Gen Set only turned off once the container is unloaded."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "The time Products are stored in temperature-controlled containers should be minimised. Containers should be unloaded within 6 hours of reaching the receiving warehouse. If this cannot be respected, RB shall be informed."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Ensure compliance with all relevant principles, guidelines and legislation relating to GDP as appropriate."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Provide reasonable access at pre-agreed times to permit audits of the relevant facilities and documentation by RB or the Regulatory Authorities."
+          },
+          {
+            "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "snippet": "Deliveries shall be made to the address stated on the delivery note only and into the care or the premises of the consignee. Ensure that the goods are delivered in the most efficient and straightforward route without extra handling, unnecessary detours or avoidable delays. Ensure after delivery of the Products to the consignee, Proof of Delivery (PoD) is made available as confirmation of the delivery."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "document": "R074927-2.0-Transporter Evaluation Form.docx",
+          "snippet": "Has the equipment used for temperature-sensitive products been qualified (e.g.: containers or trailers) by and according to manufacturer’s specification including a mapping study taking into account extreme seasonal variations in summer and winter?"
+        },
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+          "snippet": "The container must be in a good clean condition, free of damages, debris and odour."
+        },
+        {
+          "document": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+          "snippet": "Ensure that container security seals and tags are applied adequately to each opening door."
+        }
+      ],
+      "confidence": 0.8800000000000001,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "\tHas the equipment used for temperature-sensitive products been qualified (e.g.: containers or trailers) by and according to manufacturer’s specification including a mapping study taking into account extreme seasonal variations in summer and winter?\n",
+          "metadata": {
+            "source": "R074927-2.0-Transporter Evaluation Form.docx",
+            "section": "Table_6"
+          },
+          "relevance_score": 0.5252824425697327
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "only (Double click on the box and then select check to make the selection)\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\n\t\t6.1.26\n\nThe container used must meet the following specification:\n\nThe container must be in a good clean condition, free of damages, debris and odour.\n\n\n\n\n\nü\n\n\t\t6.1.27\n\nEnsure that container security seals and tags are applied adequately to each opening door.\n\n\n\nü\n\n\t\t6.1.28\n\nTemperature control must be active throughout the end-to-end transport chain until the point where the product is unloaded. In case of cross-docking, temperature control must be active during all transportation segments and in the cross-docking facility.\n\n\n\nü\n\n\t\t6.1.29\n\nMeasures are taken to avoid condensation to the extent possible.\n\n\n\nü\n\n\n\n\n\n☐ For Road freight only (Double click on the box and then select check to make the selection)\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\n\t\t6.1.30\n\nSubject to booking and information provided to Provider:\n\n- Setpoint for controlled temperature conditions for transport at 15-25°C\n\n- Temperature controlled vehicle should have temperature recording devices which take continuous or periodic readings at 15 minute intervals as a minimum.\n\n\n\nü\n\n\t\t6.1.31\n\nSecurity seals and tags shall be applied in accordance with local procedures adequately to each opening door.\n\n\n\nü\n\n\t\t6.1.32\n\nMeasures are taken to avoid condensation to the extent possible.\n\n\n\nü\n\n\n\n\n\n☐ For Air freight only (Double click on the box and then select check to make the selection)\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\n\t\t6.1.33\n\nEnsure validated/ approved thermal blankets or passive solutions as stipulated by RB are applied on to every single pallet to prevent temperature excursions. \n\n\n\nü\n\n\t\t6.1.34\n\nEnsure Airway Bill (AWB) is generated and shared with the customs broker before dispatch of the Product.\n\n\n\nü\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n6.2 Documentation and Communication\n\n\n\n\n\nRESPONSIBILITY\n\nRB\n\nCA\n\nBoth Parties\n\n\t\t6.2.1\n\n\t\tEnsure contact lists for communication are maintained and any changes promptly communicated to the other party.\n\n\n\n\n\nü\n\n6.2.2\n\nProvide the necessary documentation to specify the necessary storage conditions and any handling/safety instructi",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "part_9"
+          },
+          "relevance_score": 0.49565833806991577
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "vide copies of the appropriate licences such as WDA(H) and GDP certificates. \n\n\n\nü\n\n\n\n6.1.18\n\nIn case of unloading at the hub, conditions in 6.1.13, 14 and 15 are applicable.\n\nIn addition, an unloading check must be performed, and a checklist completed for every container unloaded. Checks must include:\n\n- a visual inspection of stock for damage and moisture\n\n- temperature and humidity control confirmed with excursions documented and RB informed.\n\n\n\nü\n\n\n\n6.1.19\n\nIn case of transfer by hub, disposable data loggers shall remain in place until arrival at the final destination.\n\n\n\nü\n\n\n\n\t\t6.1.20\n\nUnloading the container (at warehouse or hub):\n\n- Reefer containers should be transported from arrival port at destination to the receiving warehouse with activated power supplies (also called Gen Sets) to ensure that temperature and humidity controls are maintained for those lanes where this is required as indicated by RB. \n\n- Unloading the container should be performed in such a manner that the temperature control of the product is maintained and the Gen Set only turned off once the container is unloaded.\n\n\n\nü\n\n\n\n\t\t6.1.21\n\nThe time Products are stored in temperature-controlled containers should be minimised. Containers should be unloaded within 6 hours of reaching the receiving warehouse. If this cannot be respected, RB shall be informed.\n\n\n\n\n\nü\n\n\t\t6.1.22\n\nEnsure compliance with all relevant principles, guidelines and legislation relating to GDP as appropriate.\n\n\n\n\n\nü\n\n\t\t6.1.23\n\nProvide reasonable access at pre-agreed times to permit audits of the relevant facilities and documentation by RB or the Regulatory Authorities.  \n\n\n\n\n\nü\n\n\n\n\t\t6.1.24\n\nDeliveries shall be made to the address stated on the delivery note only and into the care or the premises of the consignee. Ensure that the goods are delivered in the most efficient and straightforward route without extra handling, unnecessary detours or avoidable delays.\n\n\n\nü\n\n\n\n\t\t6.1.25\n\nEnsure after delivery of the Products to the consignee, Proof of Delivery (PoD) is made available as confirmation of the delivery.\n\n\n\nü\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐ For Ocean freight ",
+          "metadata": {
+            "source": "TPT000315-2.0-GDP Technical Agreement Template.docx",
+            "section": "part_8"
+          },
+          "relevance_score": 0.4859926998615265
+        }
+      ]
+    },
+    "execution.sla_kpi": {
+      "question_id": "execution.sla_kpi",
+      "answer": {
+        "result": [
+          "Technical Agreement to be signed within 2 weeks of the Routes and Rates Allocation Date"
+        ],
+        "sources": [
+          {
+            "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "snippet": "The Routes requiring coverage with a Technical Agreement should only be quoted on the grounds that the Freight Services Provider will comply with and sign a Technical Agreement ... within 2 weeks of the Routes and Rates Allocation Date of the Contract."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "document": "Reckitt Global Ocean Freight 2025 ITT.docx",
+          "snippet": "The Routes requiring coverage with a Technical Agreement should only be quoted on the grounds that the Freight Services Provider will comply with and sign a Technical Agreement ... within 2 weeks of the Routes and Rates Allocation Date of the Contract."
+        }
+      ],
+      "confidence": 0.8800000000000001,
+      "status": "success",
+      "evidence_chunks": [
+        {
+          "chunk_index": 0,
+          "text_full": "transporters. \n\n\t\t\t\t\t Attached  \n\n\t\t\t\t\t N/A\n\n\t\t\t\t\t4.6.8\n\nHow do you ensure the clauses in the TA with RB are communicated and adhered to by your sub-contractors?\n\n\t\t\t\t\t      \n\n\t\t\t\t\t4.6.9\n\nAre procedures in place to ensure finished goods are transported under the correct conditions?\n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.10\n\nDo you allow medicines and other products in the same transportation unit?\n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.11\n\n\t\t\t\t\tIf yes, do you perform a risk assessment to prevent cross contamination? \n\n\t\t\t\t\t     \n\n\t\t\t\t\t\n\n\t\t\t\t\t4.6.12\n\nIs temperature monitored during transportation? \n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.13\n\nIf yes, how and at what frequency? \n\n\t\t\t\t\t     \n\n\t\t\t\t\t4.6.14\n\nIs temperature controlled during transportation? \n\n\t\t\t\t\t Yes   No \n\n\t\t\t\t\t4.6.15\n\nIf yes, how and at what frequency? Please provide equipment details.\n\n\t\t\tHow and what frequency       \n\n\t\t\t\t\tEquipment       \n\n\t\t\t\t\t4.6.16\n\nIs there a process for the management of unexpected incidents, such as breakdown, theft during transportation? Is this described in a procedure?\n\n\t\t\t Yes\t No \n\n\t\t\t\t\tSOP Ref:      \n\n\t\t\t\t\t4.6.17\n\nDo you have a maintenance schedule for your vehicles to ensure transportation practices consistent with GDP requirements?\n\n\t\t\t Yes\t No \n\n\t\t\t\n\n\t\t\t\t\t4.6.18\n\nDo you have a documented process for vehicle cleaning and disinfecting, and associated records are created and maintained? \n\n\t\t\t Yes\t No \n\n\t\t\t\n\n\n\nFOR RE-ASSESSMENT ONLY:\n\n\n\n5. Quality Performance\n\nList the non-conformances for Quality for the last 12 months.\n\n     \n\n\n\n\n\n\n\n\n\n\n6. DECLARATION\n\nPlease confirm against the list below that the requested copies have been attached / provided:\n\nOrganogram\n\n\t\t\t Yes\t No\n\nCompany Presentation / Manual or equivalent\n\n Yes\t No\n\nCertification / Accreditation copies\n\n Yes\t No\n\nList of key SOPs\n\n Yes\t No\n\nList of GDP subcontractors\n\n Yes\t No\n\n\n\n\n\nDetails Of Provider Representative Completing Questionnaire\n\nName:\n\n     \n\nPosition:\n\n     \n\nSignature:\n\n\n\nDate:\n\n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSECTION B – QUESTIONNAIRE EVALUATION\n(To be completed by RB’s Quality Representative)\n\n\n\n\tQUESTIONNAIRE REVIEW/APPROVAL\n\n\n\nRisks Identified \n\n\t     \n\n\t\n\n\t\n\nCAPA Response from transporter \n\n\t     \n\n\t\n\nConclusion\n\n\t  Fully Approved (GDP and non-GDP)\n\n\t  Partially Approved (Non-GDP ONLY)\n\n\t  Interim Approval whilst CAPA is being implemented\n\n\t Not Approved\n\nComments \n\n\t     \n\n\t\n\n\n\n\n\n\n\nDetails Of RB Quality Representative Reviewing Questionnaire\n\nReview Completed by:\n\n     \n\nJob Title:\n\n     \n\nSignature:\n\n\n\nDate:",
+          "metadata": {
+            "source": "R074927-2.0-Transporter Evaluation Form.docx",
+            "section": "part_4"
+          },
+          "relevance_score": 0.3723326325416565
+        },
+        {
+          "chunk_index": 1,
+          "text_full": "\tThe Routes requiring coverage with a Technical Agreement should only be quoted on the grounds that the Freight Services Provider will comply with and sign a Technical Agreement (containing substantively the same obligations as those set out in the Sample Indicative Technical Agreements set out at Schedule D) within 2 weeks of the Routes and Rates Allocation Date of the Contract.\n",
+          "metadata": {
+            "source": "Reckitt Global Ocean Freight 2025 ITT.docx",
+            "section": "Table_18"
+          },
+          "relevance_score": 0.3672866225242615
+        },
+        {
+          "chunk_index": 2,
+          "text_full": "\tpersonally, will be deemed delivered upon delivery if delivered during a Business Day, or at the start of the next Business Day if delivered at any other time; or \n",
+          "metadata": {
+            "source": "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx",
+            "section": "Table_12"
+          },
+          "relevance_score": 0.35801568627357483
+        }
+      ]
+    }
+  },
+  "summary": {
+    "transport_modes": null,
+    "transport_modes_quality": {
+      "confidence": 0.0,
+      "sources_count": 0,
+      "status": "failed"
+    },
+    "services": [
+      "temperature-controlled transport",
+      "cross-docking",
+      "container security seals/tags application",
+      "temperature recording (monitoring/tracking)",
+      "unloading at hub/warehouse",
+      "warehousing (temperature-controlled storage)",
+      "proof of delivery (PoD)",
+      "audits/access to facilities",
+      "booking unloading slots/haulage",
+      "customs clearance (Import Customs Clearance)",
+      "ISF filing/filing to US Authorities",
+      "demurrage/detention/storage management"
+    ],
+    "services_quality": {
+      "confidence": 0.8800000000000001,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "requirements": [
+      "Equipment for temperature-sensitive products must be qualified per manufacturer's specification including mapping study accounting for extreme seasonal variations.",
+      "Containers must be clean, free of damage, debris and odour.",
+      "Container security seals and tags must be applied adequately to each opening door.",
+      "Active temperature control must be maintained end-to-end until product is unloaded; for cross-docking this includes all transport segments and the cross-docking facility.",
+      "Measures must be taken to avoid condensation as far as possible.",
+      "For road freight setpoint for controlled transport conditions is 15–25°C.",
+      "Temperature-controlled vehicles must have temperature recording devices taking continuous or periodic readings at minimum 15-minute intervals.",
+      "For air freight validated/approved thermal blankets or passive solutions must be applied to every pallet to prevent excursions.",
+      "Airway Bill (AWB) must be generated and shared with the customs broker before dispatch.",
+      "Provide and maintain contact lists for communication and promptly inform of changes.",
+      "Provide necessary documentation specifying storage conditions and handling/safety instructions and provide copies of licences such as WDA(H) and GDP certificates.",
+      "Unloading checks must be performed with a checklist including visual inspection for damage and moisture; temperature and humidity control confirmed with excursions documented and RB informed.",
+      "Disposable data loggers shall remain in place until arrival at final destination when transfer by hub.",
+      "Reefer containers must be transported from port with activated power supplies (Gen Sets) where required; Gen Set only turned off once container is unloaded.",
+      "Containers should be unloaded within 6 hours of reaching the receiving warehouse; inform RB if not possible.",
+      "Ensure compliance with GDP principles, guidelines and legislation.",
+      "Provide reasonable access at pre-agreed times for audits of facilities and documentation by RB or Regulatory Authorities.",
+      "Deliveries must be made to address on delivery note only and into care/premises of consignee; provide Proof of Delivery after delivery."
+    ],
+    "requirements_quality": {
+      "confidence": 0.8800000000000001,
+      "sources_count": 3,
+      "status": "success"
+    },
+    "sla_kpis": [
+      "Technical Agreement to be signed within 2 weeks of the Routes and Rates Allocation Date"
+    ],
+    "sla_kpis_quality": {
+      "confidence": 0.8800000000000001,
+      "sources_count": 3,
+      "status": "success"
+    }
+  },
+  "metadata": {
+    "total_chunks_analyzed": 12,
+    "documents_referenced": [
+      "R074927-2.0-Transporter Evaluation Form.docx",
+      "TPT000315-2.0-GDP Technical Agreement Template.docx",
+      "Reckitt Global Ocean Freight 2025 ITT.docx",
+      "Reckitt Instructions to 2025 Quotation Tables.docx",
+      "2025 OCEAN AND AIR FREIGHT SERVICES CONTRACT.docx"
+    ]
+  },
+  "stats": {
+    "total": 4,
+    "success": 3,
+    "failed": 1,
+    "total_chunks_used": 12,
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "time_seconds": 37.882466,
+    "avg_chunks_per_question": 3.0
+  }
+}
